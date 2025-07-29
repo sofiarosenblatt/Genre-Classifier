@@ -5,6 +5,5 @@ yt-dlp
 torch==2.2.2
 torchaudio==2.2.2
 librosa==0.11.0
-libvorbis==1.3.7
 pytube
 pandas==2.3.1

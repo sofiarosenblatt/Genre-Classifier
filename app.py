@@ -10,7 +10,7 @@ from utils.utils import load_file, extract_spectrogram
 from utils.CRNN import CRNN
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["http://localhost:3000", "https://genre-classifier-app.onrender.com"])
 
 load_dotenv()
 temp_dir = os.environ.get('TEMP_DIR', './temp')

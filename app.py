@@ -24,6 +24,7 @@ def download_audio(url):
     """Downloads audio from YouTube and returns the file path."""
     ydl_opts = {
         'format': 'bestaudio/best',
+        'cookiefile': 'YTCookies.txt',
         'writethumbnail': False,
         'noplaylist': True,
         'writedescription': False,
